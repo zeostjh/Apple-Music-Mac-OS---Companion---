@@ -3,8 +3,8 @@
 Bitfocus Companion module to control the macOS Music app (Apple Music).
 
 ## Tested On 
-Companion Version 4.2.5
-Mac OS 26.2 
+- Companion Version 4.2.5
+- Mac OS 26.2 
 
 ## Features
 - Full transport control: Play, Pause, Toggle, Stop, Next, Previous
