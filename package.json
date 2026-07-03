@@ -1,0 +1,38 @@
+{
+	"name": "companion-module-apple-music-macos",
+	"version": "0.1.0",
+	"description": "Bitfocus Companion module for controlling Apple Music on macOS",
+	"main": "src/main.js",
+	"scripts": {
+		"format": "prettier -w .",
+		"lint": "prettier -c .",
+		"package": "companion-module-build"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/zeostjh/Apple-Music-Mac-OS---Companion---.git"
+	},
+	"keywords": [
+		"bitfocus",
+		"companion",
+		"apple-music",
+		"macos"
+	],
+	"author": "",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/zeostjh/Apple-Music-Mac-OS---Companion---/issues"
+	},
+	"homepage": "https://github.com/zeostjh/Apple-Music-Mac-OS---Companion---#readme",
+	"engines": {
+		"node": "^22.20"
+	},
+	"dependencies": {
+		"@companion-module/base": "~2.0.4"
+	},
+	"devDependencies": {
+		"@companion-module/tools": "^3.0.1",
+		"prettier": "^3.8.3"
+	},
+	"prettier": "@companion-module/tools/.prettierrc.json"
+}
