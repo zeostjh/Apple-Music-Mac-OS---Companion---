@@ -1,0 +1,24 @@
+{
+	"$schema": "https://raw.githubusercontent.com/bitfocus/companion-module-base/main/manifest-schema.json",
+	"type": "connection",
+	"id": "greglandon-apple-music-MacOS",
+	"name": "Apple Music - Mac OS",
+	"shortname": "apple-music",
+	"description": "Control playback and track state of the macOS Music app",
+	"manufacturer": "Apple Music",
+	"product": "Apple Music",
+	"version": "1.0.2",
+	"license": "MIT",
+	"repository": "",
+	"bugs": "",
+	"maintainers": [],
+	"legacyIds": [],
+	"runtime": {
+		"type": "node18",
+		"api": "nodejs-ipc",
+		"apiVersion": "1.13.2",
+		"entrypoint": "../dist/main.js"
+	},
+	"products": ["Mac OS"],
+	"keywords": ["apple", "music", "macos", "transport", "player"]
+}

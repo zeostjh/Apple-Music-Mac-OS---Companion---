@@ -1,0 +1,20 @@
+{
+	"name": "companion-module-apple-music",
+	"version": "1.0.2",
+	"main": "dist/main.js",
+	"scripts": {
+		"build": "tsc",
+		"dev": "tsc --watch",
+		"postinstall": "yarn build"
+	},
+	"dependencies": {
+		"@companion-module/base": "1.13.5"
+	},
+	"devDependencies": {
+		"@types/node": "^22.0.0",
+		"typescript": "^5.5.0"
+	},
+	"engines": {
+		"node": ">=18.0.0"
+	}
+}
